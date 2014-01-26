@@ -37,6 +37,7 @@ public class Logger {
 
 	public void trace(Object key, Throwable cause) {
 		System.out.println(key);
+		cause.printStackTrace();
 	}
 
 	public void debug(Object key) {
@@ -45,6 +46,7 @@ public class Logger {
 
 	public void debug(Object key, Throwable cause) {
 		System.out.println(key);
+		cause.printStackTrace();
 	}
 
 	public void info(Object key) {
@@ -53,6 +55,7 @@ public class Logger {
 
 	public void info(Object key, Throwable cause) {
 		System.out.println(key);
+		cause.printStackTrace();
 	}
 
 	public void warn(Object key) {
@@ -61,6 +64,7 @@ public class Logger {
 
 	public void warn(Object key, Throwable cause) {
 		System.out.println(key);
+		cause.printStackTrace();
 	}
 
 	public void error(Object key) {
@@ -69,6 +73,7 @@ public class Logger {
 
 	public void error(Object key, Throwable cause) {
 		System.out.println(key);
+		cause.printStackTrace();
 	}
 
 	public void fatal(Object key) {
@@ -77,6 +82,7 @@ public class Logger {
 
 	public void fatal(Object key, Throwable cause) {
 		System.out.println(key);
+		cause.printStackTrace();
 	}
 
 }
