@@ -10,10 +10,10 @@ import java.util.Collections;
 import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.InitializingBean;
 
 import com.chenjw.dynacomponent.model.ResourceFile;
-import com.chenjw.logger.Logger;
 
 /**
  * 方便开发环境没有shareddata目录时可以加载程序目录中的脚本

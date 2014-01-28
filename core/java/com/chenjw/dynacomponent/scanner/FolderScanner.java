@@ -17,11 +17,11 @@ import java.util.TimerTask;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.StringUtils;
+import org.apache.log4j.Logger;
 
 import com.chenjw.dynacomponent.core.ComponentScanner;
 import com.chenjw.dynacomponent.core.ReloadCallback;
 import com.chenjw.dynacomponent.model.ResourceFile;
-import com.chenjw.logger.Logger;
 
 /**
  * 定时扫描指定文件目录

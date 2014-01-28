@@ -8,11 +8,12 @@ import javax.script.Invocable;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 
+import org.apache.log4j.Logger;
+
 import com.chenjw.dynacomponent.builder.js.JsInvoker;
 import com.chenjw.dynacomponent.builder.js.SimpleJsInvoker;
 import com.chenjw.dynacomponent.core.ComponentBuilder;
 import com.chenjw.dynacomponent.model.ResourceFile;
-import com.chenjw.logger.Logger;
 
 /**
  * 实例化使用js编写的组件

@@ -7,7 +7,7 @@ package com.chenjw.dynacomponent.builder.js;
 import javax.script.Invocable;
 import javax.script.ScriptException;
 
-import com.chenjw.logger.Logger;
+import org.apache.log4j.Logger;
 
 /**
  * 默认js加载实现

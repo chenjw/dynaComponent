@@ -10,6 +10,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.ApplicationContext;
@@ -23,7 +24,6 @@ import com.chenjw.dynacomponent.model.ResourceFile;
 import com.chenjw.dynacomponent.spi.ComponentContainer;
 import com.chenjw.dynacomponent.util.AutowireUtils;
 import com.chenjw.dynacomponent.util.ComponentUtils;
-import com.chenjw.logger.Logger;
 
 /**
  * 组件管理器

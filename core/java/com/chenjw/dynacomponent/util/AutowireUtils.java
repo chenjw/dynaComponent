@@ -4,13 +4,12 @@
  */
 package com.chenjw.dynacomponent.util;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.ConfigurableApplicationContext;
-
-import com.chenjw.logger.Logger;
 
 /**
  * 
